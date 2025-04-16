@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  for preDraw in preDraws
+    a(href="/caracter_sheet/"+sheet+"/"+preDraw)
+      span= preDraw
